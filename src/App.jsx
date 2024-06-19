@@ -2,8 +2,8 @@ import { useEffect, useState } from "react"
 import "./App.css"
 
 export default function App() {
-    const [inpL, setInpL] = useState("");
-    const [outL, setOutL] = useState("");
+    const [inpL, setInpL] = useState("en");
+    const [outL, setOutL] = useState("su");
     const [text, setText] = useState("");
     const [lang, setLang] = useState([]);
     const [output,setOutput]=useState("");
